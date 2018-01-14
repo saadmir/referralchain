@@ -25,6 +25,7 @@ App = {
     web3 = new Web3(App.web3Provider);
     web3.eth.getAccounts(function(error, accounts) {
       account = accounts[0];
+      $('.owner-account').text(account.slice(2,10));
       App.allAccounts = App.allAccounts.filter((a) => a != account);
       return App.initContract();
     });
@@ -37,7 +38,6 @@ App = {
       App.contracts.ReferralChain = TruffleContract(ReferralChainArtifact);
       App.contracts.ReferralChain.setProvider(App.web3Provider);
 
-      // Use our contract to retrieve and mark the adopted referrals
       return App.markAdopted();
     });
     return App.bindEvents();
@@ -62,7 +62,8 @@ App = {
       var referralTemplate = $('#referralTemplate');
 
       for (i = 0; i < App.allAccounts.length; i ++) {
-        referralTemplate.find('.panel-title').text(App.allAccounts[i].slice(0,10));
+        referralTemplate.find('.panel-title').text(App.allAccounts[i].slice(2,10));
+        referralTemplate.find('.referral-breed').text(`http://example.com/signup/${App.allAccounts[i].slice(2,10)}`);
         referralTemplate.find('.btn-add').attr('data-id', `${App.allAccounts[i]}`);
         referralTemplate.find('.btn-award').attr('data-id', `${App.allAccounts[i]}`);
         referralsRow.append(referralTemplate.html());
@@ -81,7 +82,7 @@ App = {
     console.log(100);
     App.contracts.ReferralChain.deployed().then((instance) => {
       console.log(200);
-      instance.addReferrer(account, 33, account.slice(0,10));
+      instance.addReferrer(account, 33, account.slice(0,10), {gas: 2000});
       console.log(300);
     }).then(function(result) {
       console.log(result);
