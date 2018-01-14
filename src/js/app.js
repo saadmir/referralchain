@@ -82,7 +82,7 @@ App = {
     console.log(100);
     App.contracts.ReferralChain.deployed().then((instance) => {
       console.log(200);
-      instance.addReferrer(account, 33, account.slice(0,10), {gas: 2000});
+      instance.addReferrer(account, 33, account.slice(0,10),function() {});
       console.log(300);
     }).then(function(result) {
       console.log(result);

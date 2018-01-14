@@ -1,0 +1,84 @@
+span.active-red,
+.cart-icon:hover,
+.newsletter,
+.slider-section .owl-prev:hover,
+.slider-section .owl-next:hover,
+.partnernav .owl-prev:hover,
+.partnernav .owl-next:hover,
+.blognav .owl-prev:hover,
+.blognav .owl-next:hover,
+.slidernav .owl-prev:hover,
+.slidernav .owl-next:hover,
+.couponnav .owl-prev:hover,
+.couponnav .owl-next:hover,
+.itg-btn.box-btn:hover span,
+.pagination-box span:hover,
+#blog .owl-prev:hover,
+#blog .owl-next:hover,
+.tags ul li a:hover,
+.itg-btn.cart-btn,
+.searchbar button,
+.contact select,
+.navbar-default .navbar-nav .dropdown-menu>li>a:hover,
+button.itg-btn.subcribes,
+.our-categorie .owl-prev:hover,
+.our-categorie .owl-next:hover,
+.header-searchbar button,
+sup,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.middle sup,
+.categorie-section h5,
+#top-bar-sec,
+ul.nav.navbar-nav.vertical-menu li a:hover,
+.share-this ul li:hover,
+.categorie-box:before {
+    background-color: #ff4c4c
+}
+.shopcart-box .trending span,
+.pagination-box,
+.circle-2,
+.circle-3,
+.author,
+.owl-theme .owl-dots .owl-dot span,
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #ff4c4c
+}
+.categorie-box:hover h3,
+.categorie-box:hover i[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after,
+.breadcrumb-text h3,
+.submit .itg-btn,
+span.itg-color,
+.hover:hover,
+.symbol i,
+.main-footer h4,
+.link-icon,
+.section-box i,
+.main-footer p a:hover,
+.share-this ul li,
+.service-box:hover h4,
+.service-box:hover i {
+    color: #ff4c4c
+}
+ul.stars {
+    color: #ffb911;
+}
+.deals-sidebar ul.stars {
+    color: #ffb911;
+}
+.itg-btn.box-btn span:after {
+    border-bottom: 60px solid #ff4c4c;
+}
+.red {
+    color: #ff4c4c;
+}
+.clock2 {
+	box-shadow:30px -30px 0 -25px #222,-30px -30px 0 -25px #222,20px 35px 0 -35px #222,25px 45px 0 -40px #222,-20px 35px 0 -35px #222,-25px 45px 0 -40px #222,inset 0 0 0 3px #fff,
+    inset 0 6px 0 0 rgba(0, 0, 0, .3),
+    inset 0 0 0 35px #ff4c4c,
+    inset 0 0 0 40px #222;
+}

@@ -1,0 +1,79 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 05/10/2017 13:32
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-gift-box:before { content: "\f100"; }
+.flaticon-eight-ball:before { content: "\f101"; }
+.flaticon-dinner:before { content: "\f102"; }
+.flaticon-perfume:before { content: "\f103"; }
+.flaticon-dumbbell-for-training:before { content: "\f104"; }
+.flaticon-pc-computer-with-monitor:before { content: "\f105"; }
+.flaticon-air-transport:before { content: "\f106"; }
+.flaticon-paintbrush:before { content: "\f107"; }
+.flaticon-diamond-1:before { content: "\f108"; }
+.flaticon-diamond:before { content: "\f109"; }
+.flaticon-armchair-silhouette:before { content: "\f10a"; }
+.flaticon-left-arrow:before { content: "\f10b"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f10c"; }
+.flaticon-stars-couple-of-different-sizes:before { content: "\f10d"; }
+.flaticon-hand-shake:before { content: "\f10e"; }
+.flaticon-blogger-logotype:before { content: "\f10f"; }
+.flaticon-coupon:before { content: "\f110"; }
+.flaticon-shopping-bag:before { content: "\f111"; }
+.flaticon-price-tag:before { content: "\f112"; }
+.flaticon-compact-disc:before { content: "\f113"; }
+    
+    $font-Flaticon-gift-box: "\f100";
+    $font-Flaticon-eight-ball: "\f101";
+    $font-Flaticon-dinner: "\f102";
+    $font-Flaticon-perfume: "\f103";
+    $font-Flaticon-dumbbell-for-training: "\f104";
+    $font-Flaticon-pc-computer-with-monitor: "\f105";
+    $font-Flaticon-air-transport: "\f106";
+    $font-Flaticon-paintbrush: "\f107";
+    $font-Flaticon-diamond-1: "\f108";
+    $font-Flaticon-diamond: "\f109";
+    $font-Flaticon-armchair-silhouette: "\f10a";
+    $font-Flaticon-left-arrow: "\f10b";
+    $font-Flaticon-arrow-pointing-to-right: "\f10c";
+    $font-Flaticon-stars-couple-of-different-sizes: "\f10d";
+    $font-Flaticon-hand-shake: "\f10e";
+    $font-Flaticon-blogger-logotype: "\f10f";
+    $font-Flaticon-coupon: "\f110";
+    $font-Flaticon-shopping-bag: "\f111";
+    $font-Flaticon-price-tag: "\f112";
+    $font-Flaticon-compact-disc: "\f113";
